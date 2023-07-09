@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructures\CoreMangalaGame.cs" />
-    <Compile Include="Infrastructures\ObjectModel\Player.cs" />
-    <Compile Include="Infrastructures\ObjectModel\MangalaBoard.cs" />
+    <Compile Include="BaseGame.cs" />
+    <Compile Include="ObjectModel\MangalaBoard.cs" />
+    <Compile Include="ObjectModel\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

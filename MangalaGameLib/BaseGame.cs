@@ -11,13 +11,12 @@ using System.Collections.Generic;
 
 namespace MangalaGameLib.Game
 {
-    public sealed class BaseGame
+    public abstract class BaseGame
     {
         private Dictionary<Player, MangalaBoard<int>> _mainBoard;
         private Player _currentUser;
         private bool _finished;
         public event Action FinishedEvent;
-
 
         public bool FinishedSwitching
         {
